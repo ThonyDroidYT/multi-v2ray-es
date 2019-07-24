@@ -564,8 +564,8 @@ msgstr "证书域名为空!"
 msgid "group tls status"
 msgstr "当前选择组tls状态"
 
-msgid "1.ACTIVAR TLS"
-msgstr "1.开启 TLS"
+msgid "1.open TLS"
+msgstr "1.ACTIVAR TLS"
 
 msgid "2.DESACTIVAR TLS"
 msgstr "2.关闭 TLS"
