@@ -72,8 +72,8 @@ def modify():
         tls_status = 'open' if group.tls == 'tls' else 'close'
         print("{}: {}\n".format(_("Estado de TSL"), tls_status))
         print("")
-        print(_("1.open TLS"))
-        print(_("2.close TLS"))
+        print(_("1. ACTIVADO TLS"))
+        print(_("2. DESACTIVADO TLS"))
         choice = input(_("please select: "))
         if choice == '1':
             tm.turn_on()
