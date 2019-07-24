@@ -567,8 +567,8 @@ msgstr "当前选择组tls状态"
 msgid "1.open TLS"
 msgstr "1.ACTIVAR TLS"
 
-msgid "2.DESACTIVAR TLS"
-msgstr "2.关闭 TLS"
+msgid "2.close TLS"
+msgstr "2.DESACTIVAR TLS"
 
 msgid "V2ray MTProto/Shadowsocks protocol not support https!!!"
 msgstr "V2ray MTProto/Shadowsocks协议不支持配置https!!!"
@@ -578,7 +578,7 @@ msgstr "V2ray MTProto/Shadowsocks协议不支持配置https!!!"
 ### update_timer.py start ###
 
 msgid "open"
-msgstr "开启"
+msgstr "ACTIVO"
 
 msgid "close"
 msgstr "关闭"
