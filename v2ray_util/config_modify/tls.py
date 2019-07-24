@@ -13,7 +13,7 @@ class TLSModifier:
         self.writer = GroupWriter(group_tag, group_index)
     
     def turn_on(self):
-        print(_("1. Let's Encrypt certificate(Auto crear, please prepare domain)"))
+        print(_("1. Let's Encrypt certificate(Auto crear, por favor prepare su dominio)"))
         print(_("2. Customize certificate(prepare certificate file paths)"))
         print("")
         choice=input(_("please select: "))
