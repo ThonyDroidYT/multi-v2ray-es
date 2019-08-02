@@ -159,7 +159,7 @@ def calcul_iptables_traffic(port):
         download_traffic = bytes_2_human_readable(int(traffic_list[1]), 2)
         total_traffic = bytes_2_human_readable(int(traffic_list[2]), 2)
         return "{0}:  upload:{1} download:{2} total:{3}".format(ColorStr.green(str(port)), 
-                ColorStr.cyan(upload_traffic), ColorStr.cyan(download_traffic), ColorStr.cyan(total_traffic))
+                
 
 def clean_iptables(port):
     clean_cmd = "iptables -D {0} {1}"
